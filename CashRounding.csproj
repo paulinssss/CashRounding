@@ -3,7 +3,8 @@
     <TargetFramework>net472</TargetFramework>
     <AssemblyName>CashRounding</AssemblyName>
     <RootNamespace>Resto.Front.Api.CashRounding</RootNamespace>
-    <Version>1.2.0</Version>
+    <Version>1.3.0</Version>
+    <NeutralLanguage>en</NeutralLanguage>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>bin\$(Configuration)\Resto.Front.Api.CashRounding.V8\</OutputPath>

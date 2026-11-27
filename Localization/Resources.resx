@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="PluginSender" xml:space="preserve">
+    <value>Cash Rounding</value>
+  </data>
+  <data name="MenuButtonCaption" xml:space="preserve">
+    <value>Cash Rounding</value>
+  </data>
+  <data name="MenuTitle" xml:space="preserve">
+    <value>Cash Rounding - Settings</value>
+  </data>
+  <data name="MenuSelectDiscount" xml:space="preserve">
+    <value>Select rounding discount</value>
+  </data>
+  <data name="MenuDisable" xml:space="preserve">
+    <value>Disable plugin</value>
+  </data>
+  <data name="MenuEnable" xml:space="preserve">
+    <value>Enable plugin</value>
+  </data>
+  <data name="MenuAutoApplyDisable" xml:space="preserve">
+    <value>Disable auto-apply on payment screen</value>
+  </data>
+  <data name="MenuAutoApplyEnable" xml:space="preserve">
+    <value>Enable auto-apply on payment screen</value>
+  </data>
+  <data name="MenuStatus" xml:space="preserve">
+    <value>Show configuration status</value>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PaymentButtonDefault" xml:space="preserve">
+    <value>Round</value>
+  </data>
+  <data name="PaymentButtonApplyFormat" xml:space="preserve">
+    <value>Round (-{0:0.00})</value>
+  </data>
+  <data name="PaymentButtonAppliedFormat" xml:space="preserve">
+    <value>Rounded (-{0:0.00})</value>
+  </data>
+  <data name="PaymentButtonAlreadyRounded" xml:space="preserve">
+    <value>Already rounded</value>
+  </data>
+  <data name="BillCancelConfirmTitle" xml:space="preserve">
+    <value>Bill already printed</value>
+  </data>
+  <data name="BillCancelConfirmMessage" xml:space="preserve">
+    <value>This order has a printed bill. Do you want to cancel the bill to update rounding?</value>
+  </data>
+  <data name="ChooseDiscountTitle" xml:space="preserve">
+    <value>Select the flexible-sum discount for rounding</value>
+  </data>
+  <data name="NoFlexibleDiscountsTitle" xml:space="preserve">
+    <value>No flexible discount found</value>
+  </data>
+  <data name="NoFlexibleDiscountsMessage" xml:space="preserve">
+    <value>No active flexible-sum discount was found in Syrve BackOffice.
+
+Please create a flexible-sum discount in Syrve Office and try again.</value>
+  </data>
+  <data name="DiscountSavedTitle" xml:space="preserve">
+    <value>Configuration saved</value>
+  </data>
+  <data name="DiscountSavedFormat" xml:space="preserve">
+    <value>Rounding discount set to:
+{0}</value>
+  </data>
+  <data name="RoundingEnabledMessage" xml:space="preserve">
+    <value>Cash Rounding plugin ENABLED.</value>
+  </data>
+  <data name="RoundingDisabledMessage" xml:space="preserve">
+    <value>Cash Rounding plugin DISABLED.</value>
+  </data>
+  <data name="AutoApplyEnabledMessage" xml:space="preserve">
+    <value>Auto-apply on entering payment screen ENABLED.</value>
+  </data>
+  <data name="AutoApplyDisabledMessage" xml:space="preserve">
+    <value>Auto-apply on entering payment screen DISABLED (use the button on the payment screen).</value>
+  </data>
+  <data name="ConfigSaveErrorFormat" xml:space="preserve">
+    <value>Failed to save configuration:
+{0}</value>
+  </data>
+  <data name="StatusTitle" xml:space="preserve">
+    <value>Cash Rounding Status</value>
+  </data>
+  <data name="StatusActive" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="StatusInactive" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="StatusNotConfigured" xml:space="preserve">
+    <value>Not configured</value>
+  </data>
+  <data name="StatusValid" xml:space="preserve">
+    <value>Valid (flexible sum)</value>
+  </data>
+  <data name="StatusInvalid" xml:space="preserve">
+    <value>Invalid or not found</value>
+  </data>
+  <data name="StatusBodyFormat" xml:space="preserve">
+    <value>Status: {0}
+Auto-apply on payment screen: {1}
+Configured discount: {2}
+Discount check: {3}
+Rounding step: {4}</value>
+  </data>
+  <data name="RoundingAppliedFormat" xml:space="preserve">
+    <value>Rounding applied: -{0:0.00} (new total: {1:0.00})</value>
+  </data>
+  <data name="RoundingAppliedPaymentsResetFormat" xml:space="preserve">
+    <value>Rounding applied: -{0:0.00} (new total: {1:0.00}). Payment cleared: please re-enter the payment.</value>
+  </data>
+  <data name="RoundingRemovedMessage" xml:space="preserve">
+    <value>Rounding removed.</value>
+  </data>
+  <data name="RoundingRemovedPaymentsResetMessage" xml:space="preserve">
+    <value>Rounding removed. Payment cleared: please re-enter the payment.</value>
+  </data>
+  <data name="NoRoundingNeededMessage" xml:space="preserve">
+    <value>The total is already rounded to a 0.05 multiple.</value>
+  </data>
+  <data name="DiscountNotConfiguredWarning" xml:space="preserve">
+    <value>Rounding not applied: select a flexible-sum discount from the Plugins menu.</value>
+  </data>
+</root>

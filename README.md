@@ -2,7 +2,7 @@
 
 Plugin per **SyrveFront POS (API V8 / .NET Framework 4.7.2)** che esegue l'arrotondamento **per difetto in favore del cliente** al multiplo di **0,05** (eliminando le monete da 1 e 2 centesimi) tramite uno **sconto libero a importo** configurato in Syrve BackOffice.
 
-Lingue supportate: **Italiano** e **Inglese** (rilevamento automatico dalla lingua di SyrveFront).
+Lingue supportate: **Inglese** (default/fallback e `en-US`) e **Italiano** (`it-IT`), gestite tramite file `.resx` standard .NET con satellite assemblies (`en-US\CashRounding.resources.dll`, `it-IT\CashRounding.resources.dll`) e rilevamento automatico dalla lingua di SyrveFront.
 
 ---
 

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="PluginSender" xml:space="preserve">
+    <value>Arrotondamento Contanti</value>
+  </data>
+  <data name="MenuButtonCaption" xml:space="preserve">
+    <value>Arrotondamento Contanti</value>
+  </data>
+  <data name="MenuTitle" xml:space="preserve">
+    <value>Arrotondamento Contanti - Impostazioni</value>
+  </data>
+  <data name="MenuSelectDiscount" xml:space="preserve">
+    <value>Seleziona sconto arrotondamento</value>
+  </data>
+  <data name="MenuDisable" xml:space="preserve">
+    <value>Disattiva plugin</value>
+  </data>
+  <data name="MenuEnable" xml:space="preserve">
+    <value>Attiva plugin</value>
+  </data>
+  <data name="MenuAutoApplyDisable" xml:space="preserve">
+    <value>Disattiva applicazione automatica in cassa</value>
+  </data>
+  <data name="MenuAutoApplyEnable" xml:space="preserve">
+    <value>Attiva applicazione automatica in cassa</value>
+  </data>
+  <data name="MenuStatus" xml:space="preserve">
+    <value>Mostra stato configurazione</value>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PaymentButtonDefault" xml:space="preserve">
+    <value>Arrotonda</value>
+  </data>
+  <data name="PaymentButtonApplyFormat" xml:space="preserve">
+    <value>Arrotonda (-{0:0.00})</value>
+  </data>
+  <data name="PaymentButtonAppliedFormat" xml:space="preserve">
+    <value>Arrotondato (-{0:0.00})</value>
+  </data>
+  <data name="PaymentButtonAlreadyRounded" xml:space="preserve">
+    <value>Già arrotondato</value>
+  </data>
+  <data name="BillCancelConfirmTitle" xml:space="preserve">
+    <value>Preconto già stampato</value>
+  </data>
+  <data name="BillCancelConfirmMessage" xml:space="preserve">
+    <value>L&apos;ordine ha un preconto stampato. Vuoi annullare il preconto per modificare l&apos;arrotondamento?</value>
+  </data>
+  <data name="ChooseDiscountTitle" xml:space="preserve">
+    <value>Seleziona lo sconto libero per l&apos;arrotondamento</value>
+  </data>
+  <data name="NoFlexibleDiscountsTitle" xml:space="preserve">
+    <value>Nessuno sconto libero trovato</value>
+  </data>
+  <data name="NoFlexibleDiscountsMessage" xml:space="preserve">
+    <value>Non è stato trovato alcuno sconto attivo con importo libero (Flexible Sum) in Syrve BackOffice.
+
+Crea uno sconto a importo libero su Syrve Office e riprova.</value>
+  </data>
+  <data name="DiscountSavedTitle" xml:space="preserve">
+    <value>Configurazione salvata</value>
+  </data>
+  <data name="DiscountSavedFormat" xml:space="preserve">
+    <value>Sconto arrotondamento impostato su:
+{0}</value>
+  </data>
+  <data name="RoundingEnabledMessage" xml:space="preserve">
+    <value>Plugin Arrotondamento Contanti ATTIVATO.</value>
+  </data>
+  <data name="RoundingDisabledMessage" xml:space="preserve">
+    <value>Plugin Arrotondamento Contanti DISATTIVATO.</value>
+  </data>
+  <data name="AutoApplyEnabledMessage" xml:space="preserve">
+    <value>Applicazione automatica all&apos;ingresso in pagamento ATTIVATA.</value>
+  </data>
+  <data name="AutoApplyDisabledMessage" xml:space="preserve">
+    <value>Applicazione automatica all&apos;ingresso in pagamento DISATTIVATA (usa il tasto sulla schermata di pagamento).</value>
+  </data>
+  <data name="ConfigSaveErrorFormat" xml:space="preserve">
+    <value>Impossibile salvare la configurazione:
+{0}</value>
+  </data>
+  <data name="StatusTitle" xml:space="preserve">
+    <value>Stato Arrotondamento Contanti</value>
+  </data>
+  <data name="StatusActive" xml:space="preserve">
+    <value>Attivo</value>
+  </data>
+  <data name="StatusInactive" xml:space="preserve">
+    <value>Disattivo</value>
+  </data>
+  <data name="StatusNotConfigured" xml:space="preserve">
+    <value>Non configurato</value>
+  </data>
+  <data name="StatusValid" xml:space="preserve">
+    <value>Valido (importo libero)</value>
+  </data>
+  <data name="StatusInvalid" xml:space="preserve">
+    <value>Non valido o non trovato</value>
+  </data>
+  <data name="StatusBodyFormat" xml:space="preserve">
+    <value>Stato: {0}
+Applicazione automatica in cassa: {1}
+Sconto configurato: {2}
+Verifica sconto: {3}
+Passo arrotondamento: {4}</value>
+  </data>
+  <data name="RoundingAppliedFormat" xml:space="preserve">
+    <value>Arrotondamento applicato: -{0:0.00} (nuovo totale: {1:0.00})</value>
+  </data>
+  <data name="RoundingAppliedPaymentsResetFormat" xml:space="preserve">
+    <value>Arrotondamento applicato: -{0:0.00} (nuovo totale: {1:0.00}). Pagamento azzerato: reinserire il pagamento.</value>
+  </data>
+  <data name="RoundingRemovedMessage" xml:space="preserve">
+    <value>Arrotondamento rimosso.</value>
+  </data>
+  <data name="RoundingRemovedPaymentsResetMessage" xml:space="preserve">
+    <value>Arrotondamento rimosso. Pagamento azzerato: reinserire il pagamento.</value>
+  </data>
+  <data name="NoRoundingNeededMessage" xml:space="preserve">
+    <value>Il totale è già arrotondato al multiplo di 0,05.</value>
+  </data>
+  <data name="DiscountNotConfiguredWarning" xml:space="preserve">
+    <value>Arrotondamento non applicato: seleziona uno sconto libero nel menu Plugin.</value>
+  </data>
+</root>

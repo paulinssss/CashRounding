@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.0] - 2026-11-27
+### Modificato
+- Migrata la localizzazione ai file `.resx` standard .NET (`Resources.resx` in Inglese come fallback di default, `Resources.en-US.resx` e `Resources.it-IT.resx`) con generazione automatica dei satellite assemblies (`en-US\` e `it-IT\CashRounding.resources.dll`) in fase di build.
+
 ## [1.2.0] - 2026-11-27
 ### Aggiunto
 - Azzeramento automatico di eventuali righe di pagamento non ancora processate (`PaymentStatus.New`, esclusi prepagamenti e pagamenti già processati/fiscalizzati esternamente) quando l'operatore applica o rimuove l'arrotondamento tramite il pulsante sulla schermata di pagamento, evitando importi dovuti disallineati e richiedendo il reinserimento del pagamento sul nuovo totale.
